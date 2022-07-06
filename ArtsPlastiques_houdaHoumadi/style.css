@@ -1,0 +1,123 @@
+/*      Body Main Style   */
+body{
+   background-image: url('media/img/background.jpg');
+    background-color:#F0F8FF;
+    font-size:94%  ; /* 14px by default */
+	font-family: Arial,sans-serif,'lucida sans unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+.body{
+	 width:80%; /* 100% by default */
+	 margin: 10px auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link , a:visited{  /* link && visited */
+	color: darkcyan;
+}
+
+a:hover , a:active{
+	color: chocolate;
+}
+
+
+/*       Main Header     */
+.mainHeader img{
+	   width: 100%;
+	   border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;	   
+}
+.mainHeader nav{
+	background-color:#A0522D;
+	height:40px;
+	  border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  
+}
+.mainHeader nav ul{
+	text-align: center;
+	list-style:none;
+	margin: 5px auto;
+}
+.mainHeader nav ul li{
+	display: inline;
+}
+.mainHeader nav ul li a:link , .mainHeader nav ul li a:visited{
+	color: azure;
+	padding: 10px 40px;
+	display: inline-block;
+	height:20px;
+}
+.mainHeader nav ul li a:hover , .mainHeader nav ul li a:active{
+	color: #4682B4;
+	background-color:#F5DEB3;
+	text-shadow:1px 1px #191970;
+}
+
+/*     Main Content    */
+.mainContent{
+	width:70%;
+	float:left;
+}
+.top_Content{
+	background-color:AliceBlue;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  padding:3%;
+	 margin-top:15px;
+	  float:right;	 
+}
+.titleArticle{
+	font-family:cursive;
+	font-style:italic;
+	font-size:80%;
+	margin-top:-10px;
+}
+
+.asidebar{
+	background-color: Lavender;
+	padding:3%;
+	border-radius:5px;
+	margin: 1.5% 0 0 2%;
+	width:22%;
+	float:right;		
+}
+
+
+.footer p{
+	float:left;
+	background-color:DarkCyan;
+	width:100%;
+	text-align:center;
+	color:white;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+}
+
+.img1 , .img2 , .img3 , .img4 ,.img5{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+
+
+	   
+
+
+
+
+
+
